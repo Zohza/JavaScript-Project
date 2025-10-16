@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, #0EA3E6, #1A2330);
+    font-size: 14px;
+    color: white;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.teacher-login {
+    display: flex;
+
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+   
+
+    background-color: rgb(255, 255, 255, 0.1);
+    width: 370px;
+    margin: 0 auto;
+    padding: 50px;
+    height: 80vh;
+    line-height: 1.5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    justify-content: space-between;
+}
+#invalidDetails{
+    text-align: center;
+    padding: 5px;
+    border-radius: 7px;
+    width: 60%;
+    margin: auto;
+    
+}
+.font {
+    text-align: center;
+    border-radius: 45%;
+    padding: 15px 10px;
+    margin: auto;
+    background-color:#2b7ca4;
+
+}
+
+h1 {
+    text-align: center;
+}
+p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+label {
+    color: #b1d5e9;
+}
+
+button {
+    padding: 10px;
+    width: 390px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+
+
+}
+
+.login-button button {
+    background-color: rgb(14, 165, 233);
+    color: white;
+    font-size: bold;
+    font-weight: x-large;
+    margin-top: 10px;
+   
+}
+
+input {
+    height: 100%;
+    flex: 1;
+    padding: 8px 12px;
+    background: none;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+#eye-close{
+    width: 20px;
+}
+
+input::placeholder {
+    color: rgb(161, 164, 167);
+    font-size: 120%;
+
+}
+
+.passwordInput {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(65, 129, 161);
+    width: 100%;
+
+}
+
+.passwordInput:focus-within {
+    outline: 2px solid white;
+}
+
+.passwordInput button {
+    padding: 0;
+    margin: 0;
+    width: 20px;
+    background: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 20px;
+  
+}
+a{
+    color: rgb(14, 14, 196);
+   
+}
+
+.hr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    width: 45%;
+}
+
+.or {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}

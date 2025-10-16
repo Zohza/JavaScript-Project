@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>admin page</title>
+    <script
+      src="https://kit.fontawesome.com/97a3ec32d8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/admin_dashboard.css" />
+  </head>
+  <nav id="sidebar">
+   <div class="nav-sidebar">
+     <ul>
+      <li><p>EduGrade Pro</p></li>
+      <li class="active">
+        <div id="home">
+          <i class="fa-regular fa-house" style="color: #f8fafc"></i>
+          <a href="#dashboard">Dashboard Home</a>
+        </div>
+      </li>
+      <li class="active">
+        <div>
+          <i class="fa-solid fa-users" style="color: #f8fafc"></i>
+          <a href="#students">Students</a>
+        </div>
+      </li>
+      <li class="active">
+        <div>
+          <i class="fa-regular fa-star" style="color: #f8fafc"></i>
+          <a href="#gradebook">Gradebook</a>
+        </div>
+      </li>
+      <li class="active">
+        <div>
+          <i class="fa-regular fa-chart-simple" style="color: #f8fafc"></i>
+          <a href="#reports">Reports</a>
+        </div>
+      </li>
+      <li class="active">
+        <div>
+          <i class="fa-regular fa-gear" style="color: #f8fafc"></i>
+          <a href="#settings">Settings</a>
+        </div>
+      </li>
+      <li class="active">
+        <div>
+          <i class="fa-regular fa-question" style="color: #f8fafc"></i>
+          <a href="#help">Help</a>
+        </div>
+      </li>
+    </ul>
+   </div>
+   <div id="home-add">
+        
+          <a href="#home" class="new-student">Add New Student</a>
+        </div>
+  </nav>
+  <main>
+    <div id="dashboard">
+      <div>
+        <h1>Welcome, Ms.Johnson!</h1>
+        <p>
+          <ul>
+            <li><a href="#">View All Student</a></li>
+            <li><a href="#"></a> Go to GradeBook</li>
+            <li><img src="" alt=""></li>
+          </ul>
+        </p>
+      </div>
+      <h3>Dashboard Overview</h3>
+      <div class="total">
+        <p>Total Students</p>
+        <p id="value"></p>
+      </div>
+      <div class="active">
+        <p>Active Classes</p>
+        <p id="value"></p>
+      </div>
+      <div class="average">
+        <p>Average Grade</p>
+        <p id="value"></p>
+        <p id="value"></p>
+      </div>
+      <div class="assignment">
+        <p>Assignment Due</p>
+        <p id="value"></p>
+      </div>
+      <div>
+        <h4>Student Roaster</h4>
+        <input type="text" placeholder="Search students...">
+      <ul>
+        <li><a href="#">All</a></li>
+        <li><a href="#">SS1</a></li>
+        <li><a href="#">SS2</a></li>
+        <li><a href="#">SS3</a></li>
+     
+      </ul>
+      </div>
+      <div class="student-list">
+        <thead>
+          <tr>
+            <th>Student Name</th>
+            <th>Student ID</th>
+            <th>Class</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="student-data"></tbody>
+      </div>
+    </div>
+  </main>
+  <body></body>
+</html>

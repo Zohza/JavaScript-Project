@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+ display: grid;
+ grid-template-columns: auto 1fr ;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ background-color: #f8fafc;
+ box-sizing: border-box;
+}
+#sidebar{
+    background-color: rgb(13,23,27);
+    color: rgb(248,250,252);
+    height: 100vh;
+    width: 259px;
+    border-right: 1px solid var(--line-clr);
+    position: sticky;
+    top: 0;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+#sidebar i{
+    flex-shrink: 0;
+}
+#sidebar ul li {
+    display: flex;
+    flex-direction:column;
+    margin-top: 12px;
+    padding: 10px;
+    margin-left: 20px;
+}
+#home{
+    background-color: #13a4ec;
+    padding: 15px;
+    border-radius: 7px;
+}
+#home-add{
+    background-color: #13a4ec;
+    padding: 15px;
+    border-radius: 7px;
+    width: 200px;
+  margin: 17px auto;
+  
+}
+
+
+#sidebar ul li a{
+text-decoration: none;
+color: rgb(248,250,252);
+}
+.new-student{
+   color: rgb(248,250,252);
+   text-decoration: none;
+}
+
+#home-add a{
+   margin-left: 20px;
+}
